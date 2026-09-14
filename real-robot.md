@@ -38,10 +38,10 @@ Consider the following:
 3. It is possible to completely disconnect the physical TP and use only the virtual one. You need a special connector to do so.
 
 {: .important }
-> When Option 2, manual jogging still requires pressing the deadman switch on the physical TP.
+> When Option 2 is used, manual jogging still requires pressing the deadman switch on the physical TP.
 
 {: .important }
-> Replacing the physical TP entirely requires disconnecting it and fitting a special connector. Ask the instructor before attempting this.
+> Replacing the physical TP entirely requires disconnecting it and fitting a special connector. **Ask the instructor before attempting this**.
 
 ## Upload and download code
 

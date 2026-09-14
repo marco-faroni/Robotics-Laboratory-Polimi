@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Robotics Laboratory 
+# Robotics Laboratory
 
 A quickstart guide to the usage of the Estun robot cell and HIKRobot vision system of the [Robotics Laboratory course](https://onlineservices.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=892259&lang=EN&__pj0=0&__pj1=dafc90bd8f11083df45a989ece1d422c) at Politecnico di Milano.
 
