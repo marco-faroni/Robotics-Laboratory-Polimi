@@ -8,7 +8,7 @@ nav_order: 4
 
 Use the virtual controller and simulator to learn the workflow before using the physical robot.
 
-## Connect to a virtual controller
+## 1. Connect to a virtual controller
 
 1. Click **Disconnected**.
 2. Select **Virtual Controller**.
@@ -18,7 +18,7 @@ Use the virtual controller and simulator to learn the workflow before using the 
 ![Virtual controller connection dialog](doc/img/connect_to_virtual_controller.png)
 
 
-## Open the 3D simulator
+## 2. Open the 3D simulator
 
 Estun Editor includes two simulators:
 
@@ -27,30 +27,32 @@ Estun Editor includes two simulators:
 
 You can open the simulators from the **Simulation** panel (see image below).
 
-![Simulation panel](doc/img/open_simulator.png)
+<img src="doc/img/open_simulator.png" alt="Simulation panel" style="display: block; margin: 1rem auto;">
 
 
-## Open the simulated Teach Pendant
+## 3. Open the simulated Teach Pendant
 
 The simulated Teach Pendant (TP) mirrors the physical pendant. It can jog the simulated robot, teach poses, and create programs and variables.
 
 Open it from **Tool → Teach Pendant**.
 
-![Simulated Teach Pendant command](doc/img/tp.png)
+<img src="doc/img/tp.png" alt="Simulated Teach Pendant command" style="display: block; width: 70%; height: auto; margin: 1rem auto;">
 
 {: .important }
 > For the recommended interface, set **SystemSet → Menu → System Settings → Personalization → New Style**, then close and reopen the TP.
 
-## Jog the robot from the Teach Pendant
+## 4. Jog the robot from the Teach Pendant
 
 1. Open **Open 3D** and the simulated TP.
 2. Select **Teaching** mode on the TP (see image below).
-    ![Teach mode selection](doc/img/tp_mode_selector.png)
+
+   <img src="doc/img/tp_mode_selector.png" alt="Teach mode selection" style="display: block; margin: 1rem auto;">
+
 3. Enable the motors with **Mot**.
 4. Use **A1** through **A6** to jog individual axes.
 5. Press **Jog** to choose joint, world-Cartesian, or tool-Cartesian jogging according to the following graphics:
 
-![Jog mode selection](doc/img/tp_frames.png)
+<img src="doc/img/tp_frames.png" alt="Jog mode selection" style="display: block; width: 70%; height: auto; margin: 1rem auto;">
 
 
 {: .important }

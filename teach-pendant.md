@@ -8,7 +8,7 @@ nav_order: 5
 
 The Teach Pendant (TP) is used to set robot modes, jog the robot, teach positions, inspect status, and edit programs.
 
-## Main functions
+## 1. Main functions
 
 Become familiar with the TP before operating a real robot:
 
@@ -24,7 +24,7 @@ Become familiar with the TP before operating a real robot:
 
 ![Teach Pendant horizontal buttons](doc/img/tp_horizontal_buttons.png)
 
-## Create and teach a program
+## 2. Create and teach a program
 
 1. Go to **Home → Programme → Project → New → New project**.
 2. Enter a project name and select **OK**.
@@ -32,7 +32,7 @@ Become familiar with the TP before operating a real robot:
 4. In the programming window, select the final `End` line and insert a motion primitive, for example `MovL`.
 5. Jog the robot to the desired pose and press **Teach** to record it.
 
-### Video: teach points with the TP
+### 2.1. Video: teach points with the TP
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
@@ -41,7 +41,7 @@ Become familiar with the TP before operating a real robot:
 
 
 
-## Execute the program in teach mode
+## 3. Execute the program in teach mode
 
 1. Click on the **Start** line.
 2. Press **PC** to set the program pointer to the selected line.
@@ -50,16 +50,16 @@ Become familiar with the TP before operating a real robot:
 The robot movement is visible in the simulation window.
 
 
-## Test a program in manual mode
+## 4. Test a program in manual mode
 
-### Video: test a program step-by-step in manual mode
+### 4.1. Video: test a program step-by-step in manual mode
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/run_program_manual.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_manual.mp4">Open the video</a>.
 </video>
 
-## Synchronise the TP and Estun Editor
+## 5. Synchronise the TP and Estun Editor
 
 Programs created on the TP are not automatically visible in Estun Editor. In the editor, right-click the controller and choose **Upload from robot**.
 
