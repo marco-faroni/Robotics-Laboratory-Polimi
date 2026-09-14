@@ -18,7 +18,7 @@ Save with **Ctrl+S** or by right-clicking the controller and choosing **Save All
 
 You can code a minimal program with basic instructions `MovJ` or `MovL` as shown in the image below.
 
-![Minimal Estun program](doc/img/placeholder.jpg)
+![Minimal Estun program](doc/img/simple_program.png)
 
 ## Variable scope and naming
 

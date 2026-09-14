@@ -15,7 +15,7 @@ Use the virtual controller and simulator to learn the workflow before using the 
 3. Select the **ER4-550-MI** model.
 4. Click **Connect**.
 
-![Virtual controller connection dialog](doc/img/placeholder.jpg)
+![Virtual controller connection dialog](doc/img/connect_to_virtual_controller.png)
 
 
 ## Open the 3D simulator
@@ -27,7 +27,7 @@ Estun Editor includes two simulators:
 
 You can open the simulators from the **Simulation** panel (see image below).
 
-![Simulation panel](doc/img/placeholder.jpg)
+![Simulation panel](doc/img/open_simulator.png)
 
 
 ## Open the simulated Teach Pendant
@@ -36,7 +36,7 @@ The simulated Teach Pendant (TP) mirrors the physical pendant. It can jog the si
 
 Open it from **Tool → Teach Pendant**.
 
-![Simulated Teach Pendant command](doc/img/placeholder.jpg)
+![Simulated Teach Pendant command](doc/img/tp.png)
 
 {: .important }
 > For the recommended interface, set **SystemSet → Menu → System Settings → Personalization → New Style**, then close and reopen the TP.
@@ -46,13 +46,13 @@ Open it from **Tool → Teach Pendant**.
 1. Open **Open 3D** and the simulated TP.
 2. Select **Teaching** mode on the TP (see image below).
 
-![Teach mode selection](doc/img/placeholder.jpg)
+![Teach mode selection](doc/img/tp_mode_selector.png)
 
 3. Enable the motors with **Mot**.
 4. Use **A1** through **A6** to jog individual axes.
 5. Press **Jog** to choose joint, world-Cartesian, or tool-Cartesian jogging according to the following graphics:
 
-![Jog mode selection](doc/img/placeholder.jpg)
+![Jog mode selection](doc/img/tp_frames.png)
 
 
 {: .important }
