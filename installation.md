@@ -4,7 +4,7 @@ layout: default
 nav_order: 3
 ---
 
-# Install Estun Editor
+# 1. Install Estun Editor
 
 Estun robots are programmed with **Estun Editor**, which requires Windows 10 or later.
 
@@ -21,7 +21,7 @@ To save disk space, the **iER Series Virtual Controller** and **Offline Simulate
 
 ![Estun Editor installation options](doc/img/installation.png)
 
-## Run as administrator
+## 2. Run as administrator
 
 Always start Estun Editor with administrator privileges. You can set this in the application's Windows compatibility properties so it is applied by default (see image below).
 

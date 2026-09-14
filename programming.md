@@ -6,7 +6,7 @@ nav_order: 6
 
 # Robot programming
 
-## Create a project
+## 1. Create a project
 
 Right-click the controller, select **New Project**, and enter a project name. 
 
@@ -14,13 +14,13 @@ Estun Editor creates a main program automatically.
 
 Save with **Ctrl+S** or by right-clicking the controller and choosing **Save All**.
 
-## A minimal example
+## 2. A minimal example
 
 You can code a minimal program with basic instructions `MovJ` or `MovL` as shown in the image below.
 
 ![Minimal Estun program](doc/img/simple_program.png)
 
-## Variable scope and naming
+## 3. Variable scope and naming
 
 Use the narrowest useful scope:
 
@@ -34,7 +34,7 @@ Use the narrowest useful scope:
 {: .important }
 > Because the editor has limited autocomplete, it is good practice to start a variable name with its type, for example `I_counter` for an integer.
 
-## Run a program
+## 4. Run a program
 
 1. Load the program with the icon to its right (see image above).
 2. Enable the robot motors.

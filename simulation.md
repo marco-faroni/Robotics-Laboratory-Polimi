@@ -8,7 +8,7 @@ nav_order: 4
 
 Use the virtual controller and simulator to learn the workflow before using the physical robot.
 
-## Connect to a virtual controller
+## 1. Connect to a virtual controller
 
 1. Click **Disconnected**.
 2. Select **Virtual Controller**.
@@ -18,7 +18,7 @@ Use the virtual controller and simulator to learn the workflow before using the 
 ![Virtual controller connection dialog](doc/img/connect_to_virtual_controller.png)
 
 
-## Open the 3D simulator
+## 2. Open the 3D simulator
 
 Estun Editor includes two simulators:
 
@@ -30,7 +30,7 @@ You can open the simulators from the **Simulation** panel (see image below).
 <img src="doc/img/open_simulator.png" alt="Simulation panel" style="display: block; margin: 1rem auto;">
 
 
-## Open the simulated Teach Pendant
+## 3. Open the simulated Teach Pendant
 
 The simulated Teach Pendant (TP) mirrors the physical pendant. It can jog the simulated robot, teach poses, and create programs and variables.
 
@@ -41,7 +41,7 @@ Open it from **Tool → Teach Pendant**.
 {: .important }
 > For the recommended interface, set **SystemSet → Menu → System Settings → Personalization → New Style**, then close and reopen the TP.
 
-## Jog the robot from the Teach Pendant
+## 4. Jog the robot from the Teach Pendant
 
 1. Open **Open 3D** and the simulated TP.
 2. Select **Teaching** mode on the TP (see image below).

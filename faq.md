@@ -36,7 +36,7 @@ If you're running a simulation, make sure the safety inputs are set.
 To do so, open the **I/O** tab and check the configured safety-door inputs—typically `DI4` and `DI13` in this cell.
 See this video for details.
 
-### 3.1. Video: run a program in automatic mode
+### Video: run a program in automatic mode
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/run_program_auto.mp4" type="video/mp4">
@@ -51,14 +51,14 @@ Estun provides two area types:
 - **Polyhedron:** safety-certified area; up to four can be created through **User App → Polyhedron**.
 - **Area:** available to program logic but not safety-certified; create it as a global variable of type `Area` on the TP.
 
-### 4.1. Video: create an Area
+### Video: create an Area
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/create_safety_area.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="doc/video_estun_editor/create_safety_area.mp4">Open the video</a>.
 </video>
 
-### 4.2. Video: create a safety Polyhedron
+### Video: create a safety Polyhedron
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/create_safety_polyhedron.mp4" type="video/mp4">
