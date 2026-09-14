@@ -6,14 +6,17 @@ nav_order: 9
 
 # FAQs, hints, and pointers
 
+A list of frequently asked questions, hints and pointers.
+
 ## Back up and restore a workspace
 
-To make a backup:
+You have two options to create a backup:
 
-- Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive; or
-- In Estun Editor, right-click the workspace, select **Save locally**, and choose a PC folder.
+1 - Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive; or
 
-Restore with **File → Open Workspace** and select the backup.
+2 - In Estun Editor, right-click the workspace, select **Save locally**, and choose a PC folder.
+
+To restore a backup, select **File → Open Workspace** and select the backup.
 
 {: .important }
 > Before backing up a real controller, use **Upload from robot** so the editor includes the controller's current content. After restoring a backup, use **Download to robot** to place it on the controller.
@@ -61,13 +64,13 @@ Estun provides two area types:
 
 ## Move to a default pose
 
-On the TP, go to **ROB → GoPoints**. Define the home positions there and move the robot to the selected one after checking that the path is safe.
+On the TP, go to **ROB → GoPoints**. Define the home positions there and move the robot to the selected one.
 
 ## Create a user frame
 
 In Estun Editor, select **Function → User Coordinate Calibration** and follow the calibration procedure.
 
-## Tool calibration
+<!-- ## Tool calibration
 
 Tool calibration defines the tool centre point and orientation relative to the robot flange. Use the dedicated course procedure and verify the result at low speed.
 
@@ -86,3 +89,4 @@ API access and supported interfaces depend on the controller configuration. Use 
 ## Recalibrate robot encoders
 
 Encoder recalibration changes the robot's reference information. Do not perform it without explicit instructor authorisation and the official procedure.
+-->

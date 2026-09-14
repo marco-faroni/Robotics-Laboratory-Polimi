@@ -29,7 +29,9 @@ Network settings on the TP are under **System → Settings → Network**.
 
 If the physical TP is active, Estun Editor can connect and start programs, but it cannot open the virtual TP.
 
-To use the virtual TP, exit the real TP through **System → Settings → SystemSet → Menu → System Settings → System Management → Exit**. Manual jogging still requires pressing the deadman switch on the physical TP.
+To use the virtual TP, exit the real TP through **System → Settings → SystemSet → Menu → System Settings → System Management → Exit**. 
+
+Manual jogging still requires pressing the deadman switch on the physical TP.
 
 {: .important }
 > Replacing the physical TP entirely requires disconnecting it and fitting a special connector. Ask the instructor before attempting this.
@@ -45,7 +47,7 @@ Synchronise before editing an existing controller project to avoid overwriting r
 
 After loading the program, use one of these methods:
 
-- **Teach Pendant:** select **Auto (A)**, then press **Start**.
+- **Real Teach Pendant:** select **Auto (A)**, then press **Start**.
 - **External buttons:** select **Auto-External (AE)**, then press the green button.
 - **Estun Editor:** select **Auto-External (AE)**, then press **Start** in the editor.
 

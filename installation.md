@@ -24,4 +24,4 @@ To save disk space, the **iER Series Virtual Controller** and **Offline Simulate
 Always start Estun Editor with administrator privileges. You can set this in the application's Windows compatibility properties so it is applied by default.
 
 {: .note }
-> For a complete reference, consult *iER Series Operation Manual of ESTUN Editor Software.pdf*. A built-in quick guide is also available from **Help → Quick start guide for software**.
+> For a complete reference, consult *iER Series Operation Manual of ESTUN Editor Software.pdf*. A built-in quick guide is also available in the Estun Editor from **Help → Quick start guide for software**.

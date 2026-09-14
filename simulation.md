@@ -28,7 +28,8 @@ The simulated Teach Pendant (TP) mirrors the physical pendant. It can jog the si
 
 Open it from **Tool → Teach Pendant**.
 
-For the recommended interface, set **SystemSet → Menu → System Settings → Personalization → New Style**, then close and reopen the TP.
+{: .important }
+> For the recommended interface, set **SystemSet → Menu → System Settings → Personalization → New Style**, then close and reopen the TP.
 
 ## Jog the robot from the Teach Pendant
 
@@ -41,7 +42,9 @@ For the recommended interface, set **SystemSet → Menu → System Settings → 
 {: .important }
 > Check the selected frame and jog mode before moving the robot. A Cartesian command behaves differently in world and tool coordinates.
 
-### Video: jog and run a program in manual mode
+## Test a program in manual mode
+
+### Video: test a program step-by-step in manual mode
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/run_program_manual.mp4" type="video/mp4">

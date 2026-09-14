@@ -8,14 +8,16 @@ nav_order: 6
 
 ## Create a project
 
-Right-click the controller, select **New Project**, and enter a project name. Estun Editor creates a main program automatically. Save with **Ctrl+S** or by right-clicking the controller and choosing **Save All**.
+Right-click the controller, select **New Project**, and enter a project name. 
+
+Estun Editor creates a main program automatically. 
+
+Save with **Ctrl+S** or by right-clicking the controller and choosing **Save All**.
 
 ## A minimal example
 
-A minimal program normally contains a safe starting pose, one or more motion instructions such as `MovJ` or `MovL`, and an `End` instruction. First validate each motion in simulation and at reduced speed.
+You can code a minimal program with basic instructions `MovJ` or `MovL` as shown in the image below.
 
-{: .warning }
-> Do not reuse taught positions blindly on the physical cell. Confirm the active tool, frame, payload, and surrounding workspace first.
 
 ## Variable scope and naming
 
@@ -28,14 +30,8 @@ Use the narrowest useful scope:
 | Project | `P` | Values shared by project programs; avoid when local scope is sufficient |
 | Local | `L` | Values used by one script; preferred for most variables |
 
-Because the editor has limited autocomplete, start a variable name with its type, for example `I_counter` for an integer.
-
-## Good practice: start a project from scratch
-
-1. When connected to a real controller, first select **Upload from robot**.
-2. Create the project, then save the workspace. By default, workspaces are stored in `C:\Estun\Editor\Workspaces`.
-3. Define system defaults, then global/project variables only when shared access is genuinely needed.
-4. Prefer local variables for values used by one program.
+{: .important }
+> Because the editor has limited autocomplete, it is good practice to start a variable name with its type, for example `I_counter` for an integer.
 
 ## Run a program
 
