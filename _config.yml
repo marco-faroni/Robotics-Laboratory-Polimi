@@ -5,9 +5,6 @@ color_scheme: dark-blue
 
 url: https://marco-faroni.github.io/Robotics-Laboratory-Polimi
 
-aux_links:
-  Course repository: https://github.com/marco-faroni/Robotics-Laboratory-Polimi
-
 callouts:
   note:
     title: Note
