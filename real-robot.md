@@ -6,7 +6,7 @@ nav_order: 7
 
 # Using the real robot
 
-## 1. Start the robot cell
+## Start the robot cell
 
 1. Turn on the main switch on the robot cabinet.
 2. Wait until the Teach Pendant is ready.
@@ -16,7 +16,7 @@ nav_order: 7
 {: .warning }
 > Do not acknowledge alarms or enable motors unless you have checked that the cell is safe and understand the alarm.
 
-## 2. Connect Estun Editor
+## Connect Estun Editor
 
 1. Connect the PC to **Ethernet 1**.
 2. Configure a static IPv4 address: `192.168.6.XXX`, netmask `255.255.255.0`, where `XXX` is 1–254 and unused.
@@ -25,7 +25,7 @@ nav_order: 7
 
 Network settings on the TP are under **System → Settings → Network**.
 
-## 3. Use the virtual TP with the real robot
+## Use the virtual TP with the real robot
 
 
 The virtual TP on Estun Editor can act as a surrogate of the real TP. 
@@ -43,14 +43,14 @@ Consider the following:
 {: .important }
 > Replacing the physical TP entirely requires disconnecting it and fitting a special connector. **Ask the instructor before attempting this**.
 
-## 4. Upload and download code
+## Upload and download code
 
 - Select **Upload from robot** to copy the controller content into Estun Editor.
 - Select **Save All** to save editor changes to the controller.
 
 Synchronise before editing an existing controller project to avoid overwriting recent controller-side work.
 
-## 5. Run a program
+## Run a program
 
 After loading the program, use one of these methods:
 

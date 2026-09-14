@@ -8,7 +8,7 @@ nav_order: 3
 
 Estun robots are programmed with **Estun Editor**, which requires Windows 10 or later.
 
-## 1. Install the software
+## Install the software
 
 1. Download the installer from the course WeBeep page and run it.
 2. Follow the guided installation.
@@ -21,7 +21,7 @@ To save disk space, the **iER Series Virtual Controller** and **Offline Simulate
 
 ![Estun Editor installation options](doc/img/installation.png)
 
-## 2. Run as administrator
+## Run as administrator
 
 Always start Estun Editor with administrator privileges. You can set this in the application's Windows compatibility properties so it is applied by default (see image below).
 
