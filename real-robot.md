@@ -50,3 +50,5 @@ After loading the program, use one of these methods:
 - **Estun Editor:** select **Auto-External (AE)**, then press **Start** in the editor.
 
 If **Safety door is not open** or **Start AutoRun failed** appears, see [FAQs](faq.html#safety-door-and-autorun-errors).
+
+Watch: [run a program in automatic mode](doc/video_estun_editor/run_program_auto.mkv).

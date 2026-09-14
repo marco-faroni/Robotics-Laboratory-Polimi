@@ -38,6 +38,8 @@ Estun provides two area types:
 - **Polyhedron:** safety-certified area; up to four can be created through **User App → Polyhedron**.
 - **Area:** available to program logic but not safety-certified; create it as a global variable of type `Area` on the TP.
 
+Watch: [create an Area](doc/video_estun_editor/create_safety_area.mkv) or [create a safety Polyhedron](doc/video_estun_editor/create_safety_polyhedron.mkv).
+
 ## Import an external CAD model
 
 1. Open **Full-function Simulation** and select **Scene Tree**.

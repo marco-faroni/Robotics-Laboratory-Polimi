@@ -35,6 +35,8 @@ Become familiar with the TP before operating a real robot:
 
 The robot movement is visible in the simulation window.
 
+Watch: [create a program](doc/video_estun_editor/create_program.mkv) and [teach points with the TP](doc/video_estun_editor/teach_points_TP.mkv).
+
 ## Synchronise the TP and Estun Editor
 
 Programs created on the TP are not automatically visible in Estun Editor. In the editor, right-click the controller and choose **Upload from robot**.
