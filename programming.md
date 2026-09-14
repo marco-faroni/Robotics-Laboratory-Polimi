@@ -36,7 +36,7 @@ Use the narrowest useful scope:
 
 ## Run a program
 
-1. Load the program with the icon to its right.
+1. Load the program with the icon to its right (see image above).
 2. Enable the robot motors.
 3. Set the robot mode to **Auto**.
 4. Press **Play**.

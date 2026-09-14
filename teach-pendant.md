@@ -14,15 +14,15 @@ Become familiar with the TP before operating a real robot:
 
 - The **status bar** shows the controller state, mode, and active messages.
 
-![Teach Pendant status bar](doc/img/tp_status_bar.jpg)
+![Teach Pendant status bar](doc/img/tp_status_bar.png)
 
 - The physical **vertical buttons**.
 
-![Teach Pendant vertical buttons](doc/img/tp_vertical_buttons.jpg)
+![Teach Pendant vertical buttons](doc/img/tp_vertical_buttons.png)
 
 - The physical **horizontal buttons**.
 
-![Teach Pendant horizontal buttons](doc/img/tp_horizontal_buttons.jpg)
+![Teach Pendant horizontal buttons](doc/img/tp_horizontal_buttons.png)
 
 ## Create and teach a program
 
@@ -32,12 +32,14 @@ Become familiar with the TP before operating a real robot:
 4. In the programming window, select the final `End` line and insert a motion primitive, for example `MovL`.
 5. Jog the robot to the desired pose and press **Teach** to record it.
 
-<!--
+### Video: teach points with the TP
+
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
-  <source src="doc/video_estun_editor/create_program_from_tp.mp4" type="video/mp4">
+  <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="doc/video_estun_editor/teach_points_TP.mp4">Open the video</a>.
 </video>
--->
+
+
 
 ## Execute the program in teach mode
 
@@ -47,13 +49,6 @@ Become familiar with the TP before operating a real robot:
 
 The robot movement is visible in the simulation window.
 
-
-### Video: teach points with the TP
-
-<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
-  <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
-  Your browser does not support embedded video. <a href="doc/video_estun_editor/teach_points_TP.mp4">Open the video</a>.
-</video>
 
 ## Test a program in manual mode
 

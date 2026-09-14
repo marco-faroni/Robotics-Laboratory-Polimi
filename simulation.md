@@ -45,9 +45,7 @@ Open it from **Tool → Teach Pendant**.
 
 1. Open **Open 3D** and the simulated TP.
 2. Select **Teaching** mode on the TP (see image below).
-
-![Teach mode selection](doc/img/tp_mode_selector.png)
-
+    ![Teach mode selection](doc/img/tp_mode_selector.png)
 3. Enable the motors with **Mot**.
 4. Use **A1** through **A6** to jog individual axes.
 5. Press **Jog** to choose joint, world-Cartesian, or tool-Cartesian jogging according to the following graphics:

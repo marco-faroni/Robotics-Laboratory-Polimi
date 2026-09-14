@@ -19,7 +19,7 @@ Estun robots are programmed with **Estun Editor**, which requires Windows 10 or 
 
 To save disk space, the **iER Series Virtual Controller** and **Offline Simulate & Program Component** may be omitted (see image below).
 
-![Estun Editor installation options](doc/img/installation.jpg)
+![Estun Editor installation options](doc/img/installation.png)
 
 ## Run as administrator
 

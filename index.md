@@ -17,14 +17,3 @@ A quickstart guide to the usage of the Estun robot cell and HIKRobot vision syst
 
 {: .important }
 > **Safety first.** This guide is a quickstart, not a replacement for the cell's operating and safety manuals. The official manuals and the instructor's directions always take precedence.
-
-## Topics
-
-- [Purpose and disclaimer](introduction.html)
-- [Install Estun Editor](installation.html)
-- [Robot simulation](simulation.html)
-- [Teach Pendant](teach-pendant.html)
-- [Robot programming](programming.html)
-- [Using the real robot](real-robot.html)
-- [Vision](vision.html)
-- [FAQs, hints, and pointers](faq.html)

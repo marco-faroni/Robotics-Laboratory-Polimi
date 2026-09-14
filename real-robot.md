@@ -33,7 +33,7 @@ However, the usage of the virtual must be consistent with the robot setting in o
 
 Consider the following: 
 
-1. If the real TP is on, you can connect to the Estun Editor and start programs (by pressing play), but you will not be able to open the virtual TP.
+1. If the real TP is ON, you can connect to the Estun Editor and start programs (by pressing Play), but you will not be able to open the virtual TP.
 2. To use the virtual TP, exit the real TP through **System → Settings → SystemSet → Menu → System Settings → System Management → Exit**. 
 3. It is possible to completely disconnect the physical TP and use only the virtual one. You need a special connector to do so.
 
