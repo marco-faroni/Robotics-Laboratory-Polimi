@@ -14,15 +14,15 @@ Become familiar with the TP before operating a real robot:
 
 - The **status bar** shows the controller state, mode, and active messages.
 
-TODO: INSERT IMAGE PLACEHOLDER
+![Teach Pendant status bar](doc/img/placeholder.jpg)
 
 - The physical **vertical buttons**.
 
-TODO: INSERT IMAGE PLACEHOLDER
+![Teach Pendant vertical buttons](doc/img/placeholder.jpg)
 
 - The physical **horizontal buttons**.
 
-TODO: INSERT IMAGE PLACEHOLDER
+![Teach Pendant horizontal buttons](doc/img/placeholder.jpg)
 
 ## Create and teach a program
 
