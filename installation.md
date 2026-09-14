@@ -17,11 +17,15 @@ Estun robots are programmed with **Estun Editor**, which requires Windows 10 or 
 {: .warning }
 > **Required path:** Estun Editor must be installed in `C:\Estun`. Some functions will not work if it is installed elsewhere.
 
-To save disk space, the **iER Series Virtual Controller** and **Offline Simulate & Program Component** may be omitted unless your instructor asks for them.
+To save disk space, the **iER Series Virtual Controller** and **Offline Simulate & Program Component** may be omitted (see image below).
+
+TODO: INSERT IMAGE PLACEHOLDER
 
 ## Run as administrator
 
-Always start Estun Editor with administrator privileges. You can set this in the application's Windows compatibility properties so it is applied by default.
+Always start Estun Editor with administrator privileges. You can set this in the application's Windows compatibility properties so it is applied by default (see image below).
+
+TODO: INSERT IMAGE PLACEHOLDER
 
 {: .note }
 > For a complete reference, consult *iER Series Operation Manual of ESTUN Editor Software.pdf*. A built-in quick guide is also available in the Estun Editor from **Help → Quick start guide for software**.

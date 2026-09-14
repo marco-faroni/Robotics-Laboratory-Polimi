@@ -27,11 +27,18 @@ Network settings on the TP are under **System → Settings → Network**.
 
 ## Use the virtual TP with the real robot
 
-If the physical TP is active, Estun Editor can connect and start programs, but it cannot open the virtual TP.
 
-To use the virtual TP, exit the real TP through **System → Settings → SystemSet → Menu → System Settings → System Management → Exit**. 
+The virtual TP on Estun Editor can act as a surrogate of the real TP. 
+However, the usage of the virtual must be consistent with the robot setting in order to work. 
 
-Manual jogging still requires pressing the deadman switch on the physical TP.
+Consider the following: 
+
+1. If the real TP is on, you can connect to the Estun Editor and start programs (by pressing play), but you will not be able to open the virtual TP.
+2. To use the virtual TP, exit the real TP through **System → Settings → SystemSet → Menu → System Settings → System Management → Exit**. 
+3. It is possible to completely disconnect the physical TP and use only the virtual one. You need a special connector to do so.
+
+{: .important }
+> When Option 2, manual jogging still requires pressing the deadman switch on the physical TP.
 
 {: .important }
 > Replacing the physical TP entirely requires disconnecting it and fitting a special connector. Ask the instructor before attempting this.
@@ -53,9 +60,3 @@ After loading the program, use one of these methods:
 
 If **Safety door is not open** or **Start AutoRun failed** appears, see [FAQs](faq.html#safety-door-and-autorun-errors).
 
-### Video: run a program in automatic mode
-
-<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
-  <source src="doc/video_estun_editor/run_program_auto.mp4" type="video/mp4">
-  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_auto.mp4">Open the video</a>.
-</video>

@@ -29,10 +29,19 @@ To restore a backup, select **File → Open Workspace** and select the backup.
 
 The messages **Safety door is not open** and **Start AutoRun failed** can prevent automatic execution. Usually, a digital input configured as a safety-door signal is not at its expected state (normally `1`, meaning door closed).
 
-Open the **I/O** tab and check the configured safety-door inputs—typically `DI4` and `DI13` in this cell.
+If you're running the real robot, check that the safety doors are correctly closed.
 
-{: .warning }
-> Never bypass, force, or reconfigure safety I/O to clear an error. Check the physical cell and ask the instructor if the expected state is unclear.
+If you're running a simulation, make sure the safety inputs are set.
+To do so, open the **I/O** tab and check the configured safety-door inputs—typically `DI4` and `DI13` in this cell.
+See this video for details.
+
+### Video: run a program in automatic mode
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/run_program_auto.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_auto.mp4">Open the video</a>.
+</video>
+
 
 ## Create safety areas
 

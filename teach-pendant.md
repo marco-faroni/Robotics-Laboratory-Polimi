@@ -13,40 +13,50 @@ The Teach Pendant (TP) is used to set robot modes, jog the robot, teach position
 Become familiar with the TP before operating a real robot:
 
 - The **status bar** shows the controller state, mode, and active messages.
-- The physical **vertical buttons** include motion and enable controls.
-- The physical **horizontal buttons** provide execution and navigation controls.
 
-{: .note }
-> Screenshots of the TP layout should be added here when the course reference images are available.
+TODO: INSERT IMAGE PLACEHOLDER
+
+- The physical **vertical buttons**.
+
+TODO: INSERT IMAGE PLACEHOLDER
+
+- The physical **horizontal buttons**.
+
+TODO: INSERT IMAGE PLACEHOLDER
 
 ## Create and teach a program
 
 1. Go to **Home → Programme → Project → New → New project**.
 2. Enter a project name and select **OK**.
-3. In the programming window, select the final `End` line.
-4. Insert a motion primitive, for example `MovL`.
+3. This is the programming window:
+4. In the programming window, select the final `End` line and insert a motion primitive, for example `MovL`.
 5. Jog the robot to the desired pose and press **Teach** to record it.
 
-## Execute in teach mode
+<!-- INSERT VIDEO-->
 
-1. Press **Start**.
+## Execute the program in teach mode
+
+1. Click on the **Start** line.
 2. Press **PC** to set the program pointer to the selected line.
 3. Hold the physical **Start** button while the program runs.
 
 The robot movement is visible in the simulation window.
 
-### Video: create a program
-
-<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
-  <source src="doc/video_estun_editor/create_program.mp4" type="video/mp4">
-  Your browser does not support embedded video. <a href="doc/video_estun_editor/create_program.mp4">Open the video</a>.
-</video>
 
 ### Video: teach points with the TP
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
   <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="doc/video_estun_editor/teach_points_TP.mp4">Open the video</a>.
+</video>
+
+## Test a program in manual mode
+
+### Video: test a program step-by-step in manual mode
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/run_program_manual.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_manual.mp4">Open the video</a>.
 </video>
 
 ## Synchronise the TP and Estun Editor

@@ -18,6 +18,7 @@ Save with **Ctrl+S** or by right-clicking the controller and choosing **Save All
 
 You can code a minimal program with basic instructions `MovJ` or `MovL` as shown in the image below.
 
+TODO: INSERT IMAGE PLACEHOLDER
 
 ## Variable scope and naming
 
@@ -40,4 +41,26 @@ Use the narrowest useful scope:
 3. Set the robot mode to **Auto**.
 4. Press **Play**.
 
-If **Safety door is not open** or **Start AutoRun failed** appears, see [the troubleshooting section](faq.html#safety-door-and-autorun-errors).
+{: .important }
+> If **Safety door is not open** or **Start AutoRun failed** appears, see [the troubleshooting section](faq.html#safety-door-and-autorun-errors).
+
+### Video: create a program from Estun Editor
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/create_program.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/create_program.mp4">Open the video</a>.
+</video>
+
+### Video: teach points with the TP
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/teach_points_TP.mp4">Open the video</a>.
+</video>
+
+### Video: run a program in automatic mode
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/run_program_auto.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_auto.mp4">Open the video</a>.
+</video>
