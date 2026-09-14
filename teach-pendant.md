@@ -35,7 +35,7 @@ Become familiar with the TP before operating a real robot:
 ### Video: create a program from the TP
 
 <video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
-  <source src="doc/video_estun_editor/create_program_from_tp" type="video/mp4">
+  <source src="doc/video_estun_editor/create_program_from_tp.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="doc/video_estun_editor/create_program_from_tp.mp4">Open the video</a>.
 </video>
 
