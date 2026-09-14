@@ -1,8 +1,20 @@
 title: Robotics Laboratory
 description: Quickstart tutorials for the Robotics Laboratory course.
 theme: just-the-docs
+color_scheme: dark-blue
 
 url: https://marco-faroni.github.io/Robotics-Laboratory-Polimi
 
 aux_links:
   Course repository: https://github.com/marco-faroni/Robotics-Laboratory-Polimi
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  important:
+    title: Important
+    color: blue
+  warning:
+    title: Warning
+    color: red

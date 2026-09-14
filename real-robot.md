@@ -51,4 +51,9 @@ After loading the program, use one of these methods:
 
 If **Safety door is not open** or **Start AutoRun failed** appears, see [FAQs](faq.html#safety-door-and-autorun-errors).
 
-Watch: [run a program in automatic mode](doc/video_estun_editor/run_program_auto.mkv).
+### Video: run a program in automatic mode
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/run_program_auto.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_auto.mp4">Open the video</a>.
+</video>

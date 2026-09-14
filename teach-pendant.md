@@ -35,7 +35,19 @@ Become familiar with the TP before operating a real robot:
 
 The robot movement is visible in the simulation window.
 
-Watch: [create a program](doc/video_estun_editor/create_program.mkv) and [teach points with the TP](doc/video_estun_editor/teach_points_TP.mkv).
+### Video: create a program
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/create_program.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/create_program.mp4">Open the video</a>.
+</video>
+
+### Video: teach points with the TP
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/teach_points_TP.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/teach_points_TP.mp4">Open the video</a>.
+</video>
 
 ## Synchronise the TP and Estun Editor
 

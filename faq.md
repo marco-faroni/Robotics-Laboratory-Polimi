@@ -38,7 +38,19 @@ Estun provides two area types:
 - **Polyhedron:** safety-certified area; up to four can be created through **User App → Polyhedron**.
 - **Area:** available to program logic but not safety-certified; create it as a global variable of type `Area` on the TP.
 
-Watch: [create an Area](doc/video_estun_editor/create_safety_area.mkv) or [create a safety Polyhedron](doc/video_estun_editor/create_safety_polyhedron.mkv).
+### Video: create an Area
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/create_safety_area.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/create_safety_area.mp4">Open the video</a>.
+</video>
+
+### Video: create a safety Polyhedron
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/create_safety_polyhedron.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/create_safety_polyhedron.mp4">Open the video</a>.
+</video>
 
 ## Import an external CAD model
 

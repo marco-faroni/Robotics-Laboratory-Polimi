@@ -41,4 +41,9 @@ For the recommended interface, set **SystemSet → Menu → System Settings → 
 {: .important }
 > Check the selected frame and jog mode before moving the robot. A Cartesian command behaves differently in world and tool coordinates.
 
-Watch: [jog and run a program in manual mode](doc/video_estun_editor/run_program_manual.mkv).
+### Video: jog and run a program in manual mode
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/run_program_manual.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/run_program_manual.mp4">Open the video</a>.
+</video>
