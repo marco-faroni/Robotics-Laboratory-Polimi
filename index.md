@@ -8,7 +8,7 @@ nav_order: 1
   /* Homepage-only background: the overlay keeps the guide readable. */
   #main-content {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("{{ '/doc/img/placeholder.jpg' | relative_url }}");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("{{ '/doc/img/blurred_homepage.png' | relative_url }}");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
