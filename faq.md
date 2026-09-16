@@ -65,12 +65,23 @@ Estun provides two area types:
   Your browser does not support embedded video. <a href="doc/video_estun_editor/create_safety_polyhedron.mp4">Open the video</a>.
 </video>
 
-## 5. Import an external CAD model
+## 5. Import the cell structure CAD model
 
-1. Open **Full-function Simulation** and select **Scene Tree**.
-2. Right-click **Models → New Scene**, then save the new scene.
-3. Right-click **Models → Import model**.
-4. Save the scene again after importing.
+Download the robot scene from the WeBeep page and move the folder `Student_Example` to `C:\Estun\Editor\resources\scene_web`.
+
+### Video: import scene in the Open 3D simulator
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/Tutorial_Scena_Simulatore_Classico.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/Tutorial_Scena_Simulatore_Classico.mp4">Open the video</a>.
+</video>
+
+### Video: import scene in the Full Function simulator
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/Tutorial_Scena_Simulatore_Completo.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/Tutorial_Scena_Simulatore_Completo.mp4">Open the video</a>.
+</video>
 
 ## 6. Move to a default pose
 
