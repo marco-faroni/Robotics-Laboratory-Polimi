@@ -4,6 +4,7 @@ layout: home
 nav_order: 1
 ---
 
+<!--
 <style>
   /* Homepage-only background: the overlay keeps the guide readable. */
   #main-content {
@@ -14,6 +15,7 @@ nav_order: 1
     background-size: cover;
   }
 </style>
+-->
 
 # Robotics Laboratory
 
