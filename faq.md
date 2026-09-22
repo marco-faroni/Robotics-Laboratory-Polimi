@@ -87,14 +87,19 @@ Download the robot scene from the WeBeep page and move the folder `Student_Examp
 
 On the TP, go to **ROB → GoPoints**. Define the home positions there and move the robot to the selected one.
 
-## 7. Create a user frame
+## 7. How to create a tool frame and calibrate it
 
-In Estun Editor, select **Function → User Coordinate Calibration** and follow the calibration procedure.
+A tool frame is just a **global variable** of type `TOOL`. 
+You can create it from the Estun Editor under **Global Variables** → **SYSTEM**  → **Tool Coordinate System** or from the Teach Pendant  (see image below).
 
-<!-- ## Tool calibration
+The tool properties (e.g., position, orientation, mass, inertia) can be set manually when you define the variables. 
+Otherwise, it is possible to perform an **automatic calibration** procedure from the Estun Editor, under **Function**  → **Tool coordinate calibration**. 
+The procedure is guided and will ask you to move the robot in different configurations by keeping the desired Tool Center Point fixed.
 
-Tool calibration defines the tool centre point and orientation relative to the robot flange. Use the dedicated course procedure and verify the result at low speed.
+![Create tool frame from TP](doc/img/create_tool_frame_from_tp.png)
 
+
+<!-- 
 ## Object calibration
 
 Object calibration defines a coordinate frame for a workpiece or fixture. Establish it only after the object is fixed in its final position.
