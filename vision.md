@@ -31,6 +31,7 @@ The course camera password is provided separately by the instructor.
 6. Add processing blocks under **Tools** and define the result under **Output**.
 
 A basic step-by-step tutorial to create a recipe for object detection is available [here](doc/Tutorial_Camera.pdf).
+The tutorial also describes **how to run a recipe and how to obtain the recipe's result from the robot program**.
 
 Refer to the HIKRobot YouTube channel for tutorials on more advance tools.
 

@@ -94,25 +94,41 @@ Estun provides two area types:
   Your browser does not support embedded video. <a href="doc/video_estun_editor/create_safety_polyhedron.mp4">Open the video</a>.
 </video>
 
-## 5. Import an external CAD model
+## 5. Import the cell structure CAD model
 
-1. Open **Full-function Simulation** and select **Scene Tree**.
-2. Right-click **Models → New Scene**, then save the new scene.
-3. Right-click **Models → Import model**.
-4. Save the scene again after importing.
+Download the robot scene from the WeBeep page and move the folder `Student_Example` to `C:\Estun\Editor\resources\scene_web`.
+
+### Video: import scene in the Open 3D simulator
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/Tutorial_Scena_Simulatore_Classico.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/Tutorial_Scena_Simulatore_Classico.mp4">Open the video</a>.
+</video>
+
+### Video: import scene in the Full Function simulator
+
+<video controls preload="metadata" playsinline style="width: 100%; max-width: 960px">
+  <source src="doc/video_estun_editor/Tutorial_Scena_Simulatore_Completo.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="doc/video_estun_editor/Tutorial_Scena_Simulatore_Completo.mp4">Open the video</a>.
+</video>
 
 ## 6. Move to a default pose
 
 On the TP, go to **ROB → GoPoints**. Define the home positions there and move the robot to the selected one.
 
-## 7. Create a user frame
+## 7. How to create a tool frame and calibrate it
 
-In Estun Editor, select **Function → User Coordinate Calibration** and follow the calibration procedure.
+A tool frame is just a **global variable** of type `TOOL`. 
+You can create it from the Estun Editor under **Global Variables** → **SYSTEM**  → **Tool Coordinate System** or from the Teach Pendant  (see image below).
 
-<!-- ## Tool calibration
+The tool properties (e.g., position, orientation, mass, inertia) can be set manually when you define the variables. 
+Otherwise, it is possible to perform an **automatic calibration** procedure from the Estun Editor, under **Function**  → **Tool coordinate calibration**. 
+The procedure is guided and will ask you to move the robot in different configurations by keeping the desired Tool Center Point fixed.
 
-Tool calibration defines the tool centre point and orientation relative to the robot flange. Use the dedicated course procedure and verify the result at low speed.
+![Create tool frame from TP](doc/img/create_tool_frame_from_tp.png)
 
+
+<!-- 
 ## Object calibration
 
 Object calibration defines a coordinate frame for a workpiece or fixture. Establish it only after the object is fixed in its final position.
