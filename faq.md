@@ -8,15 +8,25 @@ nav_order: 9
 
 A list of frequently asked questions, hints and pointers.
 
+## Index
+
+- [1. Save and load a workspace](#backups)
+- [2. Switch between Auto and Auto-External](#switch-between-auto-and-auto-external)
+- [3. Safety-door and AutoRun errors](#safety-door-and-autorun-errors)
+- [4. Create safety areas](#create-safety-areas)
+- [5. Import the cell structure CAD model](#import-the-cell-structure-cad-model)
+- [6. Jog to a default pose](#jog-to-a-default-pose)
+- [7. How to create a tool frame and calibrate it](#how-to-create-a-tool-frame-and-calibrate-it)
+
 ## 1. Save and load a workspace
+{: #backups }
 
 ### 1.1 Save a project
 
 You have two options:
 
-1 - **Real robot or simulation:** In Estun Editor, right-click the workspace, select **Save locally**, and enter the name. The workspace will be saved under `C:\Estun\Editor\Workspaces`.
-
-2 - **Only for real robot:** Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive.
+1. **Real robot or simulation:** In Estun Editor, right-click the workspace, select **Save locally**, and enter the name. The workspace will be saved under `C:\Estun\Editor\Workspaces`.
+2. **Only for real robot:** Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive.
 
 {: .important }
 > Before saving a workspace on the real robot from Estun Editor, use **Upload from robot** so the editor includes the controller's current content. After restoring a backup, use **Download to robot** to place it on the controller.
@@ -30,29 +40,31 @@ Insert a USB drive into the TP, open **Project → Loader**, then select the USB
 3. `<your project folder>.er` (it is the folder that contains the actual project)
 
 {: .important }
-> Every time you transfer `_global.erd` and `array_global.erd` you will have to update reload them in order for the changes to take effect.
+> Every time you transfer `_global.erd` and `array_global.erd` you will have to reload them in order for the changes to take effect.
 > To do so, enter the variable window (press (X) on the TP) and select `Update GVar`.
 
 {: .warning }
-> If you try to load the workspace on the real robot from the Estun Editor you will get the error `FTP failed`. We believe there is a bug in the FTP process, so use the procedure above to load the project on the real controller.
+> If you try to load the workspace on the real robot from the Estun Editor you will get an `FTP failed` error. We believe there is a bug in the FTP process, so use the procedure above to load the project on the real controller.
 
 
 ### 1.3 Load a workspace in Estun Editor (for working in simulation)
 
-To restore a workspace **in simulation, select **File → Open Workspace** and select the backup. Then, right-click the workspace and select **Download to Robot**.
+To restore a workspace in simulation, select **File → Open Workspace** and select the backup. Then, right-click the workspace and select **Download to Robot**.
 
 Every time you use `Save All`, the workspace is overwritten in `C:\Estun\Editor\Workspaces`.
 
 
 ## 2. Switch between Auto and Auto-External
+{: #switch-between-auto-and-auto-external }
 
-There two Automatic modes: **Auto (A)** and **Auto-External (AE)**.
-**Auto (A)** runs programs from the TP or from the Estun Editor. **Auto-External (AE)** allows execution from external buttons. Select the appropriate mode on the TP before attempting to start a program.
+There two automatic modes: **Auto (A)** and **Auto-External (AE)**.
 
-To switch between (A) and (AE) modes: **System → Settings → SystemSet → Menu → System Settings → System Management. Press Auto/Remote**.
+**Auto (A)** runs programs from the TP buttons or from the Estun Editor; **Auto-External (AE)** allows execution from external buttons. Select the appropriate mode on the TP before attempting to start a program.
+
+To switch between (A) and (AE) modes: **System → Settings → SystemSet → Menu → System Settings → System Management**. Then, press **Auto/Remote**.
 
 {: .hint }
-> Keep Auto (A) during development and switch to AE only for the demo.
+> **Hint:** Keep Auto (A) during development and switch to AE only for the demo.
 
 ## 3. Safety-door and AutoRun errors
 {: #safety-door-and-autorun-errors }
@@ -74,6 +86,7 @@ See this video for details.
 
 
 ## 4. Create safety areas
+{: #create-safety-areas }
 
 Estun provides two area types:
 
@@ -95,6 +108,7 @@ Estun provides two area types:
 </video>
 
 ## 5. Import the cell structure CAD model
+{: #import-the-cell-structure-cad-model }
 
 Download the robot scene from the WeBeep page and move the folder `Student_Example` to `C:\Estun\Editor\resources\scene_web`.
 
@@ -112,11 +126,13 @@ Download the robot scene from the WeBeep page and move the folder `Student_Examp
   Your browser does not support embedded video. <a href="doc/video_estun_editor/Tutorial_Scena_Simulatore_Completo.mp4">Open the video</a>.
 </video>
 
-## 6. Move to a default pose
+## 6. Jog to a default pose
+{: #jog-to-a-default-pose }
 
-On the TP, go to **ROB → GoPoints**. Define the home positions there and move the robot to the selected one.
+On the TP, go to **ROB → GoPoints**. You can set the home positions there and move the robot to the selected one.
 
 ## 7. How to create a tool frame and calibrate it
+{: #how-to-create-a-tool-frame-and-calibrate-it }
 
 A tool frame is just a **global variable** of type `TOOL`. 
 You can create it from the Estun Editor under **Global Variables** → **SYSTEM**  → **Tool Coordinate System** or from the Teach Pendant  (see image below).

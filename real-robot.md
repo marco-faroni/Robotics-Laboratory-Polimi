@@ -61,4 +61,8 @@ After loading the program, use one of these methods:
 If **Safety door is not open** or **Start AutoRun failed** appears, see [FAQs](faq.html#safety-door-and-autorun-errors).
 
 {: .important }
-> Switch between (A) and (AE) modes: System → Settings → SystemSet → Menu → System Settings → System Management. Press Auto/Remote**.
+> To switch between (A) and (AE) modes go to **System → Settings → SystemSet → Menu → System Settings → System Management**. Then, press **Auto/Remote**.
+
+## 6. Save the project or load an existing one
+
+See [FAQs](faq.html#backups).
