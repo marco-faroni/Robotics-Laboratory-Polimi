@@ -48,14 +48,17 @@ Consider the following:
 - Select **Upload from robot** to copy the controller content into Estun Editor.
 - Select **Save All** to save editor changes to the controller.
 
-Synchronise before editing an existing controller project to avoid overwriting recent controller-side work.
+Synchronize before editing an existing controller project to avoid overwriting recent controller-side work.
 
 ## 5. Run a program
 
 After loading the program, use one of these methods:
 
 - **Real Teach Pendant:** select **Auto (A)**, then press **Start**.
+- **Estun Editor:** select **Auto (A)**, then press **Start** in the editor.
 - **External buttons:** select **Auto-External (AE)**, then press the green button.
-- **Estun Editor:** select **Auto-External (AE)**, then press **Start** in the editor.
 
 If **Safety door is not open** or **Start AutoRun failed** appears, see [FAQs](faq.html#safety-door-and-autorun-errors).
+
+{: .important }
+> Switch between (A) and (AE) modes: System → Settings → SystemSet → Menu → System Settings → System Management. Press Auto/Remote**.

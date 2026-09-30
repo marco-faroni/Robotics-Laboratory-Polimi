@@ -8,22 +8,51 @@ nav_order: 9
 
 A list of frequently asked questions, hints and pointers.
 
-## 1. Back up and restore a workspace
+## 1. Save and load a workspace
 
-You have two options to create a backup:
+### 1.1 Save a project
 
-1 - Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive; or
+You have two options:
 
-2 - In Estun Editor, right-click the workspace, select **Save locally**, and choose a PC folder.
+1 - **Real robot or simulation:** In Estun Editor, right-click the workspace, select **Save locally**, and enter the name. The workspace will be saved under `C:\Estun\Editor\Workspaces`.
 
-To restore a backup, select **File → Open Workspace** and select the backup.
+2 - **Only for real robot:** Insert a USB drive into the TP or controller, open **Project → Loader**, and copy the project to the drive.
 
 {: .important }
-> Before backing up a real controller, use **Upload from robot** so the editor includes the controller's current content. After restoring a backup, use **Download to robot** to place it on the controller.
+> Before saving a workspace on the real robot from Estun Editor, use **Upload from robot** so the editor includes the controller's current content. After restoring a backup, use **Download to robot** to place it on the controller.
+
+### 1.2 Load an existing project on the real robot
+
+Insert a USB drive into the TP, open **Project → Loader**, then select the USB path (`UPath`) and copy the following files from the USB drive to the controller:
+
+1. `_global.erd` (it contains the project global variables)
+2. `array_global.erd` (it contains the home positions, you can skip this if you did not change the default home positions)
+3. `<your project folder>.er` (it is the folder that contains the actual project)
+
+{: .important }
+> Every time you transfer `_global.erd` and `array_global.erd` you will have to update reload them in order for the changes to take effect.
+> To do so, enter the variable window (press (X) on the TP) and select `Update GVar`.
+
+{: .warning }
+> If you try to load the workspace on the real robot from the Estun Editor you will get the error `FTP failed`. We believe there is a bug in the FTP process, so use the procedure above to load the project on the real controller.
+
+
+### 1.3 Load a workspace in Estun Editor (for working in simulation)
+
+To restore a workspace **in simulation, select **File → Open Workspace** and select the backup. Then, right-click the workspace and select **Download to Robot**.
+
+Every time you use `Save All`, the workspace is overwritten in `C:\Estun\Editor\Workspaces`.
+
 
 ## 2. Switch between Auto and Auto-External
 
-**Auto (A)** runs programs from the TP. **Auto-External (AE)** allows execution from Estun Editor or external buttons. Select the appropriate mode on the TP before attempting to start a program.
+There two Automatic modes: **Auto (A)** and **Auto-External (AE)**.
+**Auto (A)** runs programs from the TP or from the Estun Editor. **Auto-External (AE)** allows execution from external buttons. Select the appropriate mode on the TP before attempting to start a program.
+
+To switch between (A) and (AE) modes: **System → Settings → SystemSet → Menu → System Settings → System Management. Press Auto/Remote**.
+
+{: .hint }
+> Keep Auto (A) during development and switch to AE only for the demo.
 
 ## 3. Safety-door and AutoRun errors
 {: #safety-door-and-autorun-errors }
