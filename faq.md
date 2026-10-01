@@ -61,10 +61,13 @@ There two automatic modes: **Auto (A)** and **Auto-External (AE)**.
 
 **Auto (A)** runs programs from the TP buttons or from the Estun Editor; **Auto-External (AE)** allows execution from external buttons. Select the appropriate mode on the TP before attempting to start a program.
 
-To switch between (A) and (AE) modes: **System → Settings → SystemSet → Menu → System Settings → System Management**. Then, press **Auto/Remote**.
+To switch between (A) and (AE) modes: **System → Settings → SystemSet → Menu → System Settings → System Management**. Then, press **Auto/Remote** (see image below).
 
 {: .hint }
 > **Hint:** Keep Auto (A) during development and switch to AE only for the demo.
+
+![Switch between A and AE](doc/img/Picture1.png)
+
 
 ## 3. Safety-door and AutoRun errors
 {: #safety-door-and-autorun-errors }
